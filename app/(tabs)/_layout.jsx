@@ -2,7 +2,6 @@ import { View, Text, Image } from "react-native";
 import { Redirect, Tabs } from "expo-router";
 import React from "react";
 import { icons } from "../../constants";
-import { HomeSimple } from "iconoir-react-native";
 
 const TabIcon = ({ icon, color, name, focused }) => {
   return (
